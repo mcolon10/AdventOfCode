@@ -12,7 +12,7 @@ public class DayOne {
     public static void main(String[] args) throws FileNotFoundException
     {
         populateMap();
-        File file = new File("src/2023/inputs/day_one.txt");
+        File file = new File("src/year2023/day_one.txt");
         Scanner inFile = new Scanner(file);
         
         int sum = 0;

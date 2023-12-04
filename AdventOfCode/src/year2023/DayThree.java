@@ -16,7 +16,7 @@ public class DayThree {
 
     public static void main(String[] args) throws FileNotFoundException
     {
-        File file = new File("src/2023/inputs/day_three.txt");
+        File file = new File("src/year2023/day_three.txt");
         Scanner inFile = new java.util.Scanner(file);
         ArrayList<String> lineContent;
         HashMap<Integer, ArrayList<String>> map = new HashMap<>();
