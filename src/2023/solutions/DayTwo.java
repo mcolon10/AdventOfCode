@@ -14,7 +14,7 @@ public class DayTwo {
         int highestBlue = 0;
         int sum = 0;
         boolean valid = false;
-        File file = new File("src/inputs/day_two.txt");
+        File file = new File("src/2023/inputs/day_two.txt");
         Scanner inFile = new Scanner(file);
         ArrayList<String> match = new ArrayList<>();
         

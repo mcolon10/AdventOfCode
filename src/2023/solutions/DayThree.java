@@ -9,12 +9,14 @@ import java.util.Scanner;
 /**
  *
  * @author matt
+ *
+ * STILL WORKING ON
  */
 public class DayThree {
 
     public static void main(String[] args) throws FileNotFoundException
     {
-        File file = new File("src/inputs/day_three");
+        File file = new File("src/2023/inputs/day_three.txt");
         Scanner inFile = new java.util.Scanner(file);
         ArrayList<String> lineContent;
         HashMap<Integer, ArrayList<String>> map = new HashMap<>();
