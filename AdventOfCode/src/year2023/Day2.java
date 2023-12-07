@@ -1,9 +1,11 @@
+package year2023;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class DayTwo {
+public class Day2 {
     public static void main(String[] args) throws FileNotFoundException
     {
         int MAX_RED = 12;
@@ -14,7 +16,7 @@ public class DayTwo {
         int highestBlue = 0;
         int sum = 0;
         boolean valid = false;
-        File file = new File("src/year2023/day_two.txt");
+        File file = new File("src/year2023/day2_in.txt");
         Scanner inFile = new Scanner(file);
         ArrayList<String> match = new ArrayList<>();
         

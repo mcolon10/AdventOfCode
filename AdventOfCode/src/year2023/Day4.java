@@ -1,3 +1,5 @@
+package year2023;
+
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -9,11 +11,11 @@ import java.util.Scanner;
  *
  * @author matt
  */
-public class DayFour {
+public class Day4 {
     
     public static void main(String[] args) throws FileNotFoundException
     {
-        File file = new File("src/year2023/day_four.txt");
+        File file = new File("src/year2023/day4_in.txt");
         Scanner inFile = new java.util.Scanner(file);
         HashMap<Integer,Integer> map = populateMap(file);
         int sum = 0;

@@ -1,3 +1,5 @@
+package year2023;
+
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -12,11 +14,11 @@ import java.util.Scanner;
  *
  * STILL WORKING ON
  */
-public class DayThree {
+public class Day3 {
 
     public static void main(String[] args) throws FileNotFoundException
     {
-        File file = new File("src/year2023/day_three.txt");
+        File file = new File("src/year2023/day3_in.txt");
         Scanner inFile = new java.util.Scanner(file);
         ArrayList<String> lineContent;
         HashMap<Integer, ArrayList<String>> map = new HashMap<>();
@@ -66,8 +68,6 @@ public class DayThree {
     public static boolean checkAdj(String num, int i, int j, HashMap<Integer, ArrayList<String>> map)
     {
         // this should check digit of num + 2 area around current j index for rows i +- 1
-        boolean charFound = false;
-        
-        return charFound;
+        return true;
     }
 }
